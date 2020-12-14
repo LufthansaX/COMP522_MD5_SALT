@@ -5,7 +5,7 @@ public class TestMD5 {
     // 测试MD5Util依赖项目
     public static void main(String args[]) {
         // plain text
-        String plaintext = "Fuck you computer science";
+        String plaintext = "Shicheng Zhu";
         System.out.println("Original String Information Text：" + plaintext);
         System.out.println("First result processed via MD5：" + MD5Util.MD5(plaintext));
 
